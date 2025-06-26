@@ -1,20 +1,10 @@
-import { Todo } from "../models/todo.model";
+import { Todo } from "../models/todo.model.js";
 
 
-// create
-const createTodo = () => {}
+const createTodo = (req, res) => { /*...*/ };
+const getTodo = (req, res) => { /*...*/ };
+const getTodoById = (req, res) => { /*...*/ };
+const updateTodo = (req, res) => { /*...*/ };
+const deleteTodo = (req, res) => { /*...*/ };
 
-
-// read all
-const getTodo = () => {}
-
-
-// read one
-const getTodoById = () => {}
-
-// update
-const updateTodo = () => {}
-
-
-// delete
-const deleteTodo = () => {}
+export { createTodo, getTodo, getTodoById, updateTodo, deleteTodo };
